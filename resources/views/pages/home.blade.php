@@ -7,7 +7,12 @@
     @vite('resources/js/app.js')
 </head>
 <body>
-  <h1>prova</h1>
-    
+@extends('layouts.app')
+
+@section('main-content')
+    <h1>
+        Home
+    </h1>
+@endsection
 </body>
 </html>

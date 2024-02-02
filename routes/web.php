@@ -15,8 +15,7 @@ use App\Http\Controllers\Guest\MovieController as GuestMovieController;
 |
 */
 
-Route::get('/',[ GuestPageController::class, 'index']);
-
+Route::get('/', [GuestPageController::class, 'index' ]);
 Route::get('/movies',[ GuestMovieController::class, 'index']);
 
 
