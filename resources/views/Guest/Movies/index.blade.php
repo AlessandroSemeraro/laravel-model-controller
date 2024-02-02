@@ -11,5 +11,6 @@
     <li>
         {{$movie->title}}
     </li>
+    @endforeach
 </ul>
 @endsection
